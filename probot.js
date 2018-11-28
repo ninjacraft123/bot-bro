@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const moment = require("moment");  
-const fs = require("fs");      
+const fs = require("l");      
 const dateFormat = require('dateformat');
 const client = new Discord.Client(); 
 const Canvas = require("canvas"); //npm i canvas
@@ -68,7 +68,7 @@ client.on("message", message => {
 
 
 client.on('message', message => {
-    var prefix = "#";
+    var prefix = "l";
   if (message.author.x5bz) return;
   if (!message.content.startsWith(prefix)) return;
  
